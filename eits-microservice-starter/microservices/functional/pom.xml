@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<parent>
-		<groupId>%NEW_PACKAGE%</groupId>
+		<groupId>br.com.desafio</groupId>
 		<artifactId>microservices-module</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 		<relativePath>../</relativePath> <!-- lookup parent from repository -->
@@ -14,6 +14,9 @@
 
 	<modules>
 		<module>usuario</module>
+		<module>controlefinanceiro</module>
+		<module>categoria</module>
+		<module>categoria</module>
 	</modules>
 	
 	<!-- Profiles -->

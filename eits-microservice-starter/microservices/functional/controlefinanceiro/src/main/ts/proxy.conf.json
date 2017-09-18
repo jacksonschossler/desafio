@@ -1,0 +1,31 @@
+{
+	"/controlefinanceiro": {
+		"target": "http://127.0.0.1:8080/controlefinanceiro",
+		"changeOrigin": true,
+		"secure": false,
+		"pathRewrite": {
+			"^/controlefinanceiro": ""
+		},
+		"logLevel": "debug"
+	},
+
+	"/broker": {
+		"target": "http://127.0.0.1:8080/controlefinanceiro/broker",
+		"changeOrigin": true,
+		"secure": false,
+		"pathRewrite": {
+			"^/broker": ""
+		},
+		"logLevel": "debug"
+	},
+
+	"/static": {
+		"target": "http://127.0.0.1:8080/controlefinanceiro/static",
+		"changeOrigin": true,
+		"secure": false,
+		"pathRewrite": {
+			"^/static": ""
+		},
+		"logLevel": "debug"
+	}
+}

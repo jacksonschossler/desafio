@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>br.com.eits.starter</groupId>
+		<groupId>br.com.desafio</groupId>
 		<artifactId>microservices-module</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 		<relativePath>../../</relativePath> <!-- lookup parent from repository -->

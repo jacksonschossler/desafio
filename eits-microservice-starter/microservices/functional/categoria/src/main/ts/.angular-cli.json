@@ -1,20 +1,20 @@
 {
 	"$schema": "./node_modules/@angular/cli/lib/config/schema.json",
 	"project": {
-		"name": "usuario"
+		"name": "categoria"
 	},
 	"apps": [
 		{
-			"name": "usuario",
-			"root": "src/usuario",
-			"deployUrl": "modules/usuario/",
-			"outDir": "../resources/META-INF/resources/modules/usuario",
+			"name": "categoria",
+			"root": "src/categoria",
+			"deployUrl": "modules/categoria/",
+			"outDir": "../resources/META-INF/resources/modules/categoria",
 			"assets": [],
 			"index": "index.html",
 			"main": "main.ts",
 			"polyfills": "../polyfills.ts",
 			"tsconfig": "../tsconfig.app.json",
-			"prefix": "usuario",
+			"prefix": "categoria",
 			"styles": [
 				"../../node_modules/@covalent/core/common/platform.scss",
 				"../theme.scss"

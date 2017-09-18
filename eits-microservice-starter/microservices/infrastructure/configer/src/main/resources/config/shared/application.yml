@@ -10,7 +10,7 @@ spring:
     properties:
       hibernate:
         default_schema: ${spring.application.name}
-        dialect: %NEW_PACKAGE%.common.infrastructure.hibernate.dialect.PostgreSQLDialect
+        dialect: br.com.desafio.common.infrastructure.hibernate.dialect.PostgreSQLDialect
         id.new_generator_mappings: true
         cache.use_second_level_cache: true
       org.hibernate.envers:

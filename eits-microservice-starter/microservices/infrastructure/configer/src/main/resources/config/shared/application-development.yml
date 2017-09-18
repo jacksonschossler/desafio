@@ -2,9 +2,9 @@
 spring:
   jmx.enabled: false
   datasource:
-    url: jdbc:postgresql://localhost:5432/%PROJECT_NAME%
-    username: %PROJECT_NAME%-${spring.application.name}
-    password: %PROJECT_NAME%
+    url: jdbc:postgresql://localhost:5432/desafio
+    username: desafio-${spring.application.name}
+    password: desafio
     hikari:
       pool-name: ${spring.application.name}
       maximum-pool-size: 3

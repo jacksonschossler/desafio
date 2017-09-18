@@ -4,25 +4,13 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>br.com.eits.starter</groupId>
+		<groupId>br.com.desafio</groupId>
 		<artifactId>microservices-functional-module</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>%VERSION%</version>
 		<relativePath>../</relativePath> <!-- lookup parent from repository -->
 	</parent>
 	
-	<properties>
-		<!-- Mail -->
-		<mvn.mail.host>expressodev.prognus.com.br</mvn.mail.host>
-		<mvn.mail.port>25</mvn.mail.port>
-		<mvn.mail.username>no-reply</mvn.mail.username>
-		<mvn.mail.password>soAsx2gGX6Rbhk</mvn.mail.password>
-		<mvn.mail.from>no-reply@prognus.org</mvn.mail.from>
-		<mvn.mail.ttls>false</mvn.mail.ttls>
-		<mvn.mail.ssl>false</mvn.mail.ssl>
-		<mvn.mail.debug>true</mvn.mail.debug>
-	</properties>	
-
-	<artifactId>usuario-service</artifactId>
+	<artifactId>categoria-service</artifactId>
 	
 	<dependencies>
 		<!-- Application -->
@@ -34,7 +22,7 @@
 		<!-- GT Saude -->
 		<dependency>
 			<groupId>${project.groupId}</groupId>
-			<artifactId>usuario-domain</artifactId>
+			<artifactId>categoria-domain</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 
@@ -43,20 +31,6 @@
 			<groupId>org.postgresql</groupId>
   			<artifactId>postgresql</artifactId>
   		</dependency>
-  		
-		<!-- WebJars -->
-  		<dependency>
-    		<groupId>org.webjars</groupId>
-    		<artifactId>webjars-locator</artifactId>
-		</dependency>
-		<dependency>
-		    <groupId>org.webjars.bower</groupId>
-		    <artifactId>material-design-lite</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-mail</artifactId>
-		</dependency>
 	</dependencies>
 
 </project>

@@ -40,9 +40,9 @@
     <converter id="currency" class="org.directwebremoting.convert.CurrencyConverter"/>
     
     <!-- customs -->
-    <converter id="bean" class="br.com.eits.starter.common.application.dwr.converter.HibernateBeanConverter"/>
-    <converter id="localDateTime" class="br.com.eits.starter.common.application.dwr.converter.LocalDateTimeConverter"/>
-    <converter id="wkt" class="br.com.eits.starter.common.application.dwr.converter.JTSWKTConverter"/>
+    <converter id="bean" class="br.com.desafio.common.application.dwr.converter.HibernateBeanConverter"/>
+    <converter id="localDateTime" class="br.com.desafio.common.application.dwr.converter.LocalDateTimeConverter"/>
+    <converter id="wkt" class="br.com.desafio.common.application.dwr.converter.JTSWKTConverter"/>
   </init>
 
   <allow>

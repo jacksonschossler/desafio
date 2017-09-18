@@ -1,16 +1,16 @@
 {
-	"/usuario": {
-		"target": "http://127.0.0.1:8080/usuario",
+	"/categoria": {
+		"target": "http://127.0.0.1:8080/categoria",
 		"changeOrigin": true,
 		"secure": false,
 		"pathRewrite": {
-			"^/usuario": ""
+			"^/categoria": ""
 		},
 		"logLevel": "debug"
 	},
-	
+
 	"/broker": {
-		"target": "http://127.0.0.1:8080/usuario/broker",
+		"target": "http://127.0.0.1:8080/categoria/broker",
 		"changeOrigin": true,
 		"secure": false,
 		"pathRewrite": {
@@ -18,9 +18,9 @@
 		},
 		"logLevel": "debug"
 	},
-	
+
 	"/static": {
-		"target": "http://127.0.0.1:8080/usuario/static",
+		"target": "http://127.0.0.1:8080/categoria/static",
 		"changeOrigin": true,
 		"secure": false,
 		"pathRewrite": {
